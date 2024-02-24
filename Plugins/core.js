@@ -50,7 +50,7 @@ module.exports = {
       case "support":
       case "supportgc":
         await doReact("🔰");
-        let txt2 = `              🧣 *Support Group* 🧣\n\n*${botName}* is an open source project, and we are always happy to help you.\n\n*Link:* https://chat.whatsapp.com/GC6JQzJZjnXFCxkR6z0ZRe \n\n*Note:* Please don't spam in the group, and don't message *Admins directly* without permission. Ask for help inside *Group*.\n\n*Thanks for using Atlas.*`;
+        let txt2 = `              🧣 *Support Group* 🧣\n\n*${botName}* is an open source project, and we are always happy to help you.\n\n*Link:* https://chat.whatsapp.com/GC6JQzJZjnXFCxkR6z0ZRe \n\n*Note:* Please don't spam in the group, and don't message *Admins directly* without permission. Ask for help inside *Group*.\n\n*Thanks for using XERO MD.*`;
         Atlas.sendMessage(m.from, { image: pic, caption: txt2 }, { quoted: m });
         break;
 
@@ -105,7 +105,7 @@ module.exports = {
 
         const allCommands = readUniqueCommands(pluginsDir);
         const formattedCommands = formatCommands(allCommands);
-        var helpText = `\nKonnichiwa *${pushName}* Senpai,\n\nI am *${botName}*, a WhatsApp bot built to take your boring WhatsApp experience into next level.\n\n*🔖 My Prefix is:*  ${prefix}\n\n${formattedCommands}\n\n\n*©️ Team ATLAS- 2023*`;
+        var helpText = `\nKonnichiwa *${pushName}* Senpai,\n\nI am *${botName}*, a WhatsApp bot built to take your boring WhatsApp experience into next level.\n\n*🔖 My Prefix is:*  ${prefix}\n\n${formattedCommands}\n\n\n*©️ Team XERO- 2024*`;
         await Atlas.sendMessage(
           m.from,
           { video: { url: botVideo }, gifPlayback: true, caption: helpText },
@@ -119,7 +119,7 @@ module.exports = {
       case "about":
         await doReact("🔰");
         let xyz = await axios.get(
-          "https://api.github.com/repos/FantoX/Atlas-MD/releases"
+          "https://api.github.com/repos/xero-md-/releases"
         );
         let latest = xyz.data[0].tag_name;
         const version2 = package.version;
