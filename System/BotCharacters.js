@@ -250,7 +250,7 @@ global.charID18 = {
 
 global.charID19 = {
   botName : "Xero",
-  botVideo : "https://mobstatus.com/wp-content/uploads/2023/01/Alan-Walker-Alone-Pt.-II-Lyrics-Status-_-Whatsapp-Status-_-_Your-Name-Edit_-_-Canorous-u720P_HD.mp4",
+  botVideo : "https://i.imgur.com/FNTmG0y.mp4",
   botImage1 : "https://i.imgur.com/BX4wBp8.jpeg",
   botImage2 : "https://i.imgur.com/BX4wBp8.jpeg",
   botImage3 : "https://i.imgur.com/BX4wBp8.jpeg",
